@@ -24,9 +24,12 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let shopperFirstName = "Alice";
+let shopperLastName = "Sole";
+let itemNumber = 5;
+let itemType = "apples";
+let itemsPrice = 20;
 
-console.log(d);
+let display = shopperFirstName + " " + shopperLastName + " bought " + itemNumber + " " + itemType + " for $" + itemsPrice + ".";
+
+console.log(display);
